@@ -1,1 +1,32 @@
-
+*MONGODB ATLAS USER DOCUMENT DETAILS*
+Query Results: 1-3 of 3
+_id
+6748014d25326b7ceef73d84
+username
+"Thiru"
+password
+"$2a$10$Dps3CnHPt8ReVCR0jl4qwue1QnYQHOzn1nao6YlQVCf8ISofzexCi"
+role
+"admin"
+__v
+0
+_id
+6748023525326b7ceef73d87
+username
+"Nikilesh"
+password
+"$2a$10$Q4uD1p5MH/BOISBsfmNCcuv1W3v62dY8ViyyrJ1T2MrB41SAq5F0K"
+role
+"moderator"
+__v
+0
+_id
+6748025125326b7ceef73d89
+username
+"Sanjay"
+password
+"$2a$10$y/nqHtcePI/XAWi4XTlByOo3rvH/LKNCRnqbAP/pZLNeUD7kJ17h6"
+role
+"user"
+__v
+0
