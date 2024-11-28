@@ -56,46 +56,46 @@ Project File Structure
 RBAC
 │
 
-├── node_modules/               # Node.js dependencies
+├── node_modules/              
 
-├── src/                        # Source code directory
+├── src/                        
 
 │   ├── config/                 
 
-│   │   └── dbConnect.js        # Database connection configuration
+│   │   └── dbConnect.js        
 
 │   ├── controllers/            
 
-│   │   └── authController.js   # Controller for authentication logic
+│   │   └── authController.js   
 
 │   ├── middlewares/            
 
-│   │   ├── authMiddleware.js   # Middleware for authentication verification
+│   │   ├── authMiddleware.js   
 
-│   │   └── roleMiddleware.js   # Middleware for role-based access control
+│   │   └── roleMiddleware.js  
 
 │   ├── models/                 
 
-│   │   └── userModel.js        # User schema/model definition
+│   │   └── userModel.js  
 
 │   ├── routes/                 
 
-│   │   ├── authRoutes.js       # Authentication routes
+│   │   ├── authRoutes.js       
 
-│   │   ├── userRoutes.js       # User-related routes
+│   │   ├── userRoutes.js 
 
 
-│   └── index.js                # Main server entry point
+│   └── index.js   
 
 │
 
-├── .env                        # Environment variables
+├── .env                       
 
-├── .gitignore                  # Git ignore file
+├── .gitignore           
 
-├── package.json                # Project metadata and dependencies
+├── package.json        
 
-└── package-lock.json           # Lockfile for exact dependency versions
+└── package-lock.json   
 
 
 
