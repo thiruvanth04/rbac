@@ -1,4 +1,4 @@
-RBAC Project (Find Working of this project at rbac_postman.mp4 file)
+RBAC Project _(Find Working of this project at rbac_postman.mp4 file)_
 
 Description
 
@@ -43,7 +43,7 @@ Installation
 
 Install dependencies:
 
-npm install
+npm install express dotenv mongoose nodemon bcryptjs jsonwebtoken
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -60,6 +60,8 @@ CONNECTION_STRING=mongodb+srv://Thiruvanth:thiru_rbac_project@cluster0.mongodb.n
 Run the server:
 
 npm run dev
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 How to Use:
 
