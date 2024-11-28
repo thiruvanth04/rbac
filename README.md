@@ -1,4 +1,4 @@
-RBAC Project
+RBAC Project (Find Working of this project at rbac_postman.mp4 file)
 
 Description
 
@@ -27,6 +27,15 @@ Backend: Node.js, Express.js
 Database: MongoDB
 
 Authentication: JWT (JSON Web Tokens)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mongo DB Details with Schema:
+
+![image](https://github.com/user-attachments/assets/4c294a80-b80c-4324-80eb-68208b084b37)
+
+![image](https://github.com/user-attachments/assets/6f5896ec-35da-4789-9c9d-892ed7a33c43)
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
