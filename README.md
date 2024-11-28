@@ -14,9 +14,7 @@ Backend: Node.js, Express.js
 Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
 Installation
-Clone this repository:
 
-git clone https://github.com/your-username/rbac-project.git
 Install dependencies:
 
 npm install
@@ -27,7 +25,7 @@ JWT_SECRET=my-secret-key
 CONNECTION_STRING=mongodb+srv://<username>:<password>@cluster0.mongodb.net/rbac_project
 Run the server:
 
-npm start
+npm run dev
 How to Use
 Add Roles: Admins can add roles via the /roles endpoint.
 Assign Permissions: Admins can assign permissions to roles via /permissions endpoint.
