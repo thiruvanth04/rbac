@@ -103,8 +103,7 @@ RBAC
 │   ├── routes/                 
 │   │   ├── authRoutes.js       # Authentication routes
 │   │   ├── userRoutes.js       # User-related routes
-│   │   └── index.js            # Combines and exports all routes
-│   └── index.js                # Main server entry point (likely missing here)
+│   └── index.js                # Main server entry point
 │
 ├── .env                        # Environment variables
 ├── .gitignore                  # Git ignore file
