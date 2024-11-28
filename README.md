@@ -55,7 +55,6 @@ CONNECTION_STRING=mongodb+srv://Thiruvanth:thiru_rbac_project@cluster0.mongodb.n
 Project File Structure
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Project Structure Description
 
 The project follows a standard Node.js backend structure for implementing Role-Based Access Control (RBAC).
 
