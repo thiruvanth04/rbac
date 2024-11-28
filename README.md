@@ -118,10 +118,7 @@ npm run dev
 
 How to Use:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-Add Roles: Admins can add roles via the /roles endpoint.
+refer rback_postman.mp4 file
 
-Assign Permissions: Admins can assign permissions to roles via /permissions endpoint.
-
-User Authentication: Use the /login endpoint to authenticate users and receive a JWT token for access.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
