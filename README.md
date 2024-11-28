@@ -53,51 +53,64 @@ CONNECTION_STRING=mongodb+srv://Thiruvanth:thiru_rbac_project@cluster0.mongodb.n
 
 Project File Structure
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Project Structure Description
+
+The project follows a standard Node.js backend structure for implementing Role-Based Access Control (RBAC).
+
+1. **`src/config/dbConnect.js`**  
+   Handles the connection to the database (e.g., MongoDB). Typically includes logic for connecting using environment variables from `.env`.
+
+2. **`src/controllers/authController.js`**  
+   Contains the logic for authentication, such as user login, registration, and token generation.
+
+3. **`src/middlewares/authMiddleware.js`**  
+   Middleware that verifies if a user is authenticated by checking tokens or session data.
+
+4. **`src/middlewares/roleMiddleware.js`**  
+   Middleware responsible for checking the user's role (e.g., admin, user) and ensuring they have the required permissions.
+
+5. **`src/models/userModel.js`**  
+   Defines the user schema using a library like Mongoose. Includes fields such as username, password, and role.
+
+6. **`src/routes/authRoutes.js`**  
+   Defines the routes related to authentication (e.g., `/login`, `/register`).
+
+7. **`src/routes/userRoutes.js`**  
+   Contains routes for managing user-specific actions, such as fetching user data or updating profiles.
+
+8. **`src/index.js`**  
+   Main entry point to combine and export all the routes. Helps organize the application routes centrally.
+
+---
+
+### Project File Structure
+
+```
 RBAC
 │
-
-├── node_modules/              
-
-├── src/                        
-
+├── node_modules/               # Node.js dependencies
+├── src/                        # Source code directory
 │   ├── config/                 
-
-│   │   └── dbConnect.js        
-
+│   │   └── dbConnect.js        # Database connection configuration
 │   ├── controllers/            
-
-│   │   └── authController.js   
-
+│   │   └── authController.js   # Controller for authentication logic
 │   ├── middlewares/            
-
-│   │   ├── authMiddleware.js   
-
-│   │   └── roleMiddleware.js  
-
+│   │   ├── authMiddleware.js   # Middleware for authentication verification
+│   │   └── roleMiddleware.js   # Middleware for role-based access control
 │   ├── models/                 
-
-│   │   └── userModel.js  
-
+│   │   └── userModel.js        # User schema/model definition
 │   ├── routes/                 
-
-│   │   ├── authRoutes.js       
-
-│   │   ├── userRoutes.js 
-
-
-│   └── index.js   
-
+│   │   ├── authRoutes.js       # Authentication routes
+│   │   ├── userRoutes.js       # User-related routes
+│   │   └── index.js            # Combines and exports all routes
+│   └── index.js                # Main server entry point (likely missing here)
 │
-
-├── .env                       
-
-├── .gitignore           
-
-├── package.json        
-
-└── package-lock.json   
-
-
+├── .env                        # Environment variables
+├── .gitignore                  # Git ignore file
+├── package.json                # Project metadata and dependencies
+└── package-lock.json           # Lockfile for exact dependency versions
+```
 
 Run the server:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
