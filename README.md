@@ -50,7 +50,6 @@ JWT_SECRET=my-secret-key
 
 CONNECTION_STRING=mongodb+srv://Thiruvanth:thiru_rbac_project@cluster0.mongodb.net/rbac_project
 
-//I know this is a sensitive information , but im providing here just to make your evaluation easy.
 
 Project File Structure
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
