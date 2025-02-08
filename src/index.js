@@ -17,6 +17,10 @@ app.use('/api/users', userRoutes)
 
 const PORT  = process.env.PORT || 7002
 
+app.get('/', (req, res) => {
+    res.send('RBAC API is Live!');
+});
+
 app.listen(PORT,()=>{
     console.log(`server started at ${PORT}`)
 })
